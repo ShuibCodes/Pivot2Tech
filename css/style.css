@@ -1637,6 +1637,19 @@ input[type="submit"].form-control:focus {
     width: 100%;
     margin-bottom: -16px; } }
 
+    .courses-btn{
+      max-width: 180px;
+      margin: 20px 0px;
+      display: block;
+      margin-bottom: 5px;
+      cursor: pointer;
+      text-align: left;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      color:white;
+      background-image: linear-gradient(90deg, #fd2740 0%, #ffc527 100%);
+    }
+
 /*  [ 01 ] - Banner Parallax
 ============================== */
 .banner-parallax {
