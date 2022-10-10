@@ -406,6 +406,15 @@ label.error {
   font-weight: 400;
   color: #f33; }
 
+  .list-item {
+    color: black;
+    font-size: 16px;
+    min-width: 300px;
+  }
+  
+  
+  
+
 input.error, input.error:focus,
 textarea.error,
 textarea.error:focus,
@@ -1637,6 +1646,18 @@ input[type="submit"].form-control:focus {
     width: 100%;
     margin-bottom: -16px; } }
 
+    .freelance-btn{
+      max-width: 200px;
+      margin: 20px 0px;
+      display: block;
+      margin-bottom: 5px;
+      cursor: pointer;
+      text-align: left;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      color:white;
+      background-image: linear-gradient(90deg, #fd2740 0%, #ffc527 100%);
+    }
     .courses-btn{
       max-width: 180px;
       margin: 20px 0px;
