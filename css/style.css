@@ -67,7 +67,63 @@ body {
     padding-right: 60px
   }
 
+  
 
+  /* For 1024 Resolution */  
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px)  
+{ 
+
+  .hide-desktop{
+    display:none !important;
+  }
+  .for-desktop{
+    display: inline;
+  }
+} 
+
+@media only screen   
+and (min-width: 1370px)  
+and (max-width: 1605px)  
+{ 
+  .hide-desktop{
+   display:none !important;
+  }
+.for-desktop{
+  display: inline;
+  }
+}  
+
+
+
+@media only screen   
+and (orientation : landscape)   
+and (-webkit-min-device-pixel-ratio: 1)  
+and (min-device-width : 768px)   
+and (max-device-width : 1007px)   
+{ 
+  .hide-desktop{
+    display:none !important;
+   }
+ .for-desktop{
+   display: inline;
+   }
+} 
+
+
+@media only screen   
+and (orientation : portrait)   
+and (-webkit-min-device-pixel-ratio: 1)   
+and (min-device-width : 768px)   
+and (max-device-width : 1007px)  
+{ .hide-desktop{
+  display:none !important;
+ }
+.for-desktop{
+ display: inline;
+ }
+} 
 
 .bg-image{
 height: 400px;
@@ -1655,9 +1711,25 @@ input[type="submit"].form-control:focus {
       text-align: left;
       font-family: "Montserrat", sans-serif;
       font-size: 14px;
+      font-weight:600;
       color:white;
       background-image: linear-gradient(90deg, #fd2740 0%, #ffc527 100%);
     }
+
+    .pre-register-btn{
+      max-width: 200px;
+      margin: 20px 0px;
+      display: block;
+      margin-bottom: 5px;
+      cursor: pointer;
+      text-align: left;
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px;
+      color:white;
+      background-image: linear-gradient(90deg, #fd2740 0%, #ffc527 100%);
+    }
+
+
     .courses-btn{
       max-width: 180px;
       margin: 20px 0px;
